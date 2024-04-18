@@ -1,0 +1,77 @@
+@import url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazRzWWd1dU9fT2s5WkhMNFM1WHVPd3FuaDBud3xBQ3Jtc0ttemRTZnZRNWxfUlhvUk1hOEhIdXU2dVVqMklZdFkwa1FuQzFPc3ltZTBGc0s1amNTTkM0TFhQMGxibWFlNE9mLTBXaTVhRGVGOG1QNThmNVdvUzVPbl9xamhjeFI2Sms3d2FjTDVZaXpPUXY2cWhVOA&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DInspiration%26family%3DLobster%26family%3DMontserrat%3Awght%40300%26display%3Dswap%27%29%3B&v=QBnARnigSgU);
+
+:root {
+    --padrao: #0d6efd;
+    --nome: 'Inspiration', cursive;
+    --corpo: 'Montserat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome {
+    font-family: var(--nome);
+    font-size: 4.5rem;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box-top {
+    width: 95vw;
+    height: 35vh;
+    background-color: var(--padrao);
+    border-radius: 0px 0px 35px 35px;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-family: var(--corpo);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link {
+    background-color: var(--padrao);
+    height: 10vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--corpo);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box-link:hover {
+    border: 1px solid var(--padrao);
+    background-color: white;
+    color: var(--padrao);
+}
