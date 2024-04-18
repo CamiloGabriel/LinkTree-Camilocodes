@@ -23,10 +23,11 @@ body {
     height: 150px;
     border: solid 1px #fff;
     border-radius: 50%;
+    align-items: center;
 }
 
 .link-bio {
-    width: 95vw;
+    width: 100vw;
     height: 35vh;
     background-color: var(--padrao);
     border-radius: 0px 0px 35px 35px;
@@ -34,7 +35,7 @@ body {
 }
 
 .box-top {
-    width: 95vw;
+    width: 100vw;
     height: 35vh;
     background-color: var(--padrao);
     border-radius: 0px 0px 35px 35px;
