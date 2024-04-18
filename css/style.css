@@ -23,12 +23,14 @@ body {
     height: 150px;
     border: solid 1px #fff;
     border-radius: 50%;
-    align-items: center;
 }
 
 .link-bio {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 35vh;
+    align-items: center;
     background-color: var(--padrao);
     border-radius: 0px 0px 35px 35px;
     margin-bottom: 10px;
