@@ -18,6 +18,37 @@ body {
     align-items: center;
 }
 
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+}
+
+.box-top {
+    width: 95vw;
+    height: 35vh;
+    background-color: var(--padrao);
+    border-radius: 0px 0px 35px 35px;
+    margin-bottom: 10px;
+}
+
+.nome {
+    font-family: var(--nome);
+    font-size: 4.5rem;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about {
+    font-family: var(--corpo);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
 .menu {
     display: flex;
     flex-direction:row;
@@ -30,36 +61,6 @@ body {
     color: #fff;
 }
 
-.link-bio img{
-    width: 150px;
-    height: 150px;
-    border: solid 1px #fff;
-    border-radius: 50%;
-}
-
-.nome {
-    font-family: var(--nome);
-    font-size: 4.5rem;
-    color: white;
-    padding-top: 50px;
-    text-align: center;
-}
-
-.box-top {
-    width: 95vw;
-    height: 35vh;
-    background-color: var(--padrao);
-    border-radius: 0px 0px 35px 35px;
-    margin-bottom: 10px;
-}
-
-.about {
-    font-family: var(--corpo);
-    color: white;
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 5px;
-}
 
 main {
     display: flex;
