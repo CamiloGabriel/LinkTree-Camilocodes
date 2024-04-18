@@ -1,7 +1,7 @@
 @import url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazRzWWd1dU9fT2s5WkhMNFM1WHVPd3FuaDBud3xBQ3Jtc0ttemRTZnZRNWxfUlhvUk1hOEhIdXU2dVVqMklZdFkwa1FuQzFPc3ltZTBGc0s1amNTTkM0TFhQMGxibWFlNE9mLTBXaTVhRGVGOG1QNThmNVdvUzVPbl9xamhjeFI2Sms3d2FjTDVZaXpPUXY2cWhVOA&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DInspiration%26family%3DLobster%26family%3DMontserrat%3Awght%40300%26display%3Dswap%27%29%3B&v=QBnARnigSgU);
 
 :root {
-    --padrao: #0d6efd;
+    --padrao: #f0ab0bfc;
     --nome: 'Inspiration', cursive;
     --corpo: 'Montserat', sans-serif;
 }
@@ -12,10 +12,29 @@
 }
 
 body {
-    background-color: #c4c4c4;
+    background-color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 1px #fff;
+    border-radius: 50%;
 }
 
 .nome {
