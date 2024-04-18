@@ -25,6 +25,14 @@ body {
     border-radius: 50%;
 }
 
+.link-bio {
+    width: 95vw;
+    height: 35vh;
+    background-color: var(--padrao);
+    border-radius: 0px 0px 35px 35px;
+    margin-bottom: 10px;
+}
+
 .box-top {
     width: 95vw;
     height: 35vh;
