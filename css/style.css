@@ -69,6 +69,7 @@ section.botoes-links {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #282828;
 }
 
 a.link button {
