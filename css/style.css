@@ -18,13 +18,6 @@ body {
     align-items: center;
 }
 
-.link-bio img{
-    width: 150px;
-    height: 150px;
-    border: solid 1px #fff;
-    border-radius: 50%;
-}
-
 .link-bio {
     display: flex;
     flex-direction: column;
@@ -42,6 +35,13 @@ body {
     background-color: var(--padrao);
     border-radius: 0px 0px 35px 35px;
     margin-bottom: 10px;
+}
+
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 1px #fff;
+    border-radius: 50%;
 }
 
 .nome {
