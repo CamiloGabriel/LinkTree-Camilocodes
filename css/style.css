@@ -82,6 +82,7 @@ a.link button {
     font-size: 1.2em;
     cursor: pointer;
     transition: .2s;
+    color: #282828;
 }
 
 a.link i{
