@@ -36,7 +36,9 @@ git clone https://github.com/CamiloGabriel/LinkTree-Camilocodes.git
 cd LinkTree-Camilocodes
 ```
 
-### 📝 Contributing
+---
+
+## 📝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project.
@@ -45,14 +47,18 @@ Commit your Changes (git commit -m 'Add some AmazingFeature').
 Push to the Branch (git push origin feature/AmazingFeature).
 Open a Pull Request.
 
-### 📄License
+## 📄License
 Distributed under the MIT License. See LICENSE for more information.
 
-### 📱Contact
+---
+
+## 📱Contact
 Camilo Gabriel - contato@camilo.codes
 
 Project Link: https://github.com/CamiloGabriel/LinkTree-Camilocodes
 
-### 🤝 Acknowledgments
+---
+
+## 🤝 Acknowledgments
 - Inspiration: Other Awesome Portfolios
 - Resources: Awesome Resources List
